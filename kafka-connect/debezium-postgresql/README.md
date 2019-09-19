@@ -203,8 +203,7 @@ curl -X POST \
 	        "database.password": "passw0rd",
 	        "database.dbname": "postgres",
 	        "database.server.name": "postgres",
-	        "table.whitelist": "public.people",
-	        "topic.prefix": "postgres-01-"
+	        "table.whitelist": "public.people"
 	  }
 }'
 ```
